@@ -1,0 +1,26 @@
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn {
+    background-color: #43A67B;
+    border-color: #F5DEB3;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-style: italic;
+    margin: 5px;
+}
+
+.btn:hover{
+    background-color: black;
+    border-color: black;
+    color: #43A67B;
+}

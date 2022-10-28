@@ -1,0 +1,113 @@
+.divGrande {
+    height: 800px;
+}
+
+.divBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5DEB3;
+    padding: 15px;
+}
+
+.btn1 {
+    background-color: #43A67B;
+    border-color: #F5DEB3;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-style: italic;
+    margin: 5px;
+}
+
+.btn2 {
+    background-color: #43A67B;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-style: italic;
+    margin: 5px;
+    margin-bottom: 75px;
+}
+
+.btn1:hover{
+    background-color: black;
+    border-color: black;
+    color: #43A67B;
+}
+
+.btn2:hover{
+    background-color: black;
+    border-color: black;
+    color: #43A67B;
+}
+
+.title {
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.divSegundo {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../do.jpeg);
+    height: 750px;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    width: 750px;
+}
+
+.div {
+    margin: 5px;
+}
+
+.f {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+}
+
+.p {
+    font-size: 10px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: red;
+    margin: 5px;
+    width: 220px;
+}
+
+.input {
+    width: 200px;
+    height: 20px;
+}
+
+.d {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    padding-left: 10px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.di{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.temps{
+    font-family: monospace;
+    font-size: 12px;
+    width: 220px;
+}

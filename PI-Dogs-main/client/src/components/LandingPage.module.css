@@ -1,0 +1,42 @@
+.divGrande {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin: 0em;
+    backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background: url(../dogsss.jpeg);
+}
+
+.section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: beige;
+    padding-top: 337px;
+    padding-bottom: 337px;
+    padding-left: 203px;
+    padding-right: 203px;
+    flex-direction: column;
+}
+
+.title {
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.btn {
+    color: black;
+    background-color: #43A67B;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    font-style: italic;
+    border-color: beige;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #43A67B;
+    border-color: black;
+}

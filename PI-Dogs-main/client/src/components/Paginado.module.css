@@ -1,0 +1,25 @@
+.btn {
+    color: black;
+    border-color: #43A67B;
+    background-color: #43A67B;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-style: italic;
+}
+
+.activo {
+    color: #43A67B;
+    border-color: black;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-style: italic;
+}
+
+.btn:hover{
+    background-color: black;
+    border-color: black;
+    color: #43A67B;
+}

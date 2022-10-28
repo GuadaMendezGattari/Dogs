@@ -1,0 +1,59 @@
+.divGrande {
+    background-color: beige;
+}
+
+.divBtn {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5DEB3;
+    padding: 15px;
+}
+
+.btn {
+    padding: 10px;
+    border-color: #43A67B;
+    background-color: #43A67B;
+    color: black;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.title {
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    border-color: black;
+    background-color: black;
+    color: #43A67B;
+}
+
+.imagen {
+    width: 400px;
+    height: 350px;
+}
+
+.divChico {
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    justify-content: space-around;
+}
+
+.tituloGrande {
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.tituloChico {
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.tituloChico2 {
+    font-family: monospace;
+    font-size: 17px;
+    width: 450px;
+}

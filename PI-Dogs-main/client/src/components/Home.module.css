@@ -1,0 +1,54 @@
+.divGrande {
+    background-color: beige;
+}
+
+.divChico {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #F5DEB3;
+}
+
+.divSegundo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F5DEB3;
+    padding-bottom: 10px;
+}
+
+.btn {
+    background-color: #43A67B;
+    border-radius: 5px;
+    border-color: #F5DEB3;
+    color: black;
+    padding: 10px;
+    font-style: italic;
+}
+
+.btn:hover {
+    background-color: black;
+    border-color: black;
+    color: #43A67B;
+}
+
+.title {
+    font-family: monospace;
+}
+
+.perros {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.p{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}

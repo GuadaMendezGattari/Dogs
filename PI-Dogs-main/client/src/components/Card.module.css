@@ -1,0 +1,25 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid, black;
+    padding: 10px;
+    margin: 15px;
+    width: 350px;
+    height: 420px;
+    background-color: #d0b9a0;
+    border-radius: 20px;
+}
+
+.imagen {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 13px;
+}
